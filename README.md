@@ -9,7 +9,7 @@ This is an example tutorial to assist with learning algorithms.
 You must have Node.js installed on your computer. You can download it [here](https://nodejs.org/en/download/).<br>
 I recommend using VS Code as your IDE. You can download it [here](https://code.visualstudio.com/download).<br>
 Also, I recommend the Better Comments extension for VS Code for visual assistance. You can download it [here](https://marketplace.visualstudio.com/items?itemName=aaron-bond.better-comments).<br>
-In the console, run `npm run learn` to run the script.
+In the console, type `npm run learn` to run the script.
 <br>
 <br>
 
