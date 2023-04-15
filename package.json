@@ -1,0 +1,12 @@
+{
+  "name": "alorithm_tutorial",
+  "version": "1.0.0",
+  "description": "Alorithm Tutorial",
+  "main": "index.js",
+  "scripts": {
+    "learn": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
