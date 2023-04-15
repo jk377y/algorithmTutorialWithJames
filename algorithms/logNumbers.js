@@ -22,3 +22,16 @@ let logNums2 = function(num2) {
     }
 };
 logNums2(num2);
+
+//! REVERSE - We can also use this function to log all numbers from 1 to "num" in reverse
+//! Feel free to change this value to try for yourself
+let num3 = 7;
+// this will print the value of i to the console, and then decrement i by 1 until i is no longer greater than or equal to 1
+let logNums3 = function(num3) {
+    let i = num3;
+    while (i >= 1) {
+    console.log(i);
+    i--;
+    }
+};
+logNums3(num3);
