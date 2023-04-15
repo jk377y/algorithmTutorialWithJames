@@ -4,7 +4,7 @@
   "description": "Alorithm Tutorial",
   "main": "index.js",
   "scripts": {
-    "learn": "nodemon index.js"
+    "learn": "nodemon --exitcrash index.js"
   },
   "keywords": [],
   "author": "",
