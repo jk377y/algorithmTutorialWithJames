@@ -2,9 +2,9 @@
   "name": "alorithm_tutorial",
   "version": "1.0.0",
   "description": "Alorithm Tutorial",
-  "main": "index.js",
+  "main": "script.js",
   "scripts": {
-    "learn": "nodemon --exitcrash index.js"
+    "learn": "nodemon --exitcrash script.js"
   },
   "keywords": [],
   "author": "",

@@ -12,8 +12,8 @@ var logEvenNums = function (num) {
 };
 logEvenNums(num);
 
-//! Feel free to change this value to try for yourself
 // this can also be solved by incrementing the number by 2, and starting at 0
+//! Feel free to change this value to try for yourself
 let num2 = 10;
 // by setting i+=2, we are incrementing the number by 2, and starting at 0
 var logEvenNums2 = function (num2) {
