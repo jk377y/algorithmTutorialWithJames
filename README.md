@@ -1,4 +1,7 @@
 # Algorithm Tutorial with James
+
+I will be updating this alot this week (currently 4/18/23).  Hoping to be complete by the weekend.
+
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 <br>
 This is an example tutorial to assist with learning algorithms.
