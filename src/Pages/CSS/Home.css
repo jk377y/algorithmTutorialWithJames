@@ -11,4 +11,10 @@
     box-shadow: var(--shadow);
     border-radius: 70px;
 }
+.home-icons {
+    transition: all 0.3s ease-in-out;
+}
+.home-icons:hover {
+    transform: scale(1.1);
+}
 /* End Home */
