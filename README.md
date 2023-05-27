@@ -11,7 +11,7 @@ I am ***NOT*** building this to be mobile friendly. This is designed for 1080p d
 <br>
 
 ## How to use this tutorial
-WIll eventually be hosted on my website.  For now, you can clone this repo and run it locally.
+This will eventually be hosted on my website.  For now, you can clone this repo and run it locally.
 In the console, type `npm run dev` to run the tutorial in dev mode.
 <br>
 <br>
