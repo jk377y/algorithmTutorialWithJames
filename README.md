@@ -31,5 +31,8 @@ Check me out at https://jk377y.dev
 <br>
 
 ## License
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
+<br>
 Copyright (c) 2023 James Kelly
+<br>
 Information on this license can be found at: (https://opensource.org/licenses/MIT)
