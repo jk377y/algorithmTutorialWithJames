@@ -11,6 +11,11 @@ In the console, type `npm run dev` to run the tutorial in dev mode.
 <br>
 <br>
 
+***IN PROGRESS***
+![Algorithm Tutorial with James Homepage](./src/assets/images/homepage.JPG)
+<br>
+<br>
+
 ## Questions
 For Questions, I can be reached at the following:
 

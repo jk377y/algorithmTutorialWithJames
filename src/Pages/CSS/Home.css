@@ -1,0 +1,14 @@
+/* Start Home */
+.home-outer-wrapper {
+    display: flex;
+    flex-direction: row;
+    padding-top: 200px;
+    gap: 100px;
+    justify-content: center;
+    height: 100vh;
+}
+.home-icons {
+    box-shadow: var(--shadow);
+    border-radius: 70px;
+}
+/* End Home */
