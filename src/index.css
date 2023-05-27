@@ -16,7 +16,7 @@
 	--shadow: 2px 2px 10px 3px #000000;
 }
 body {
-	font-family: "Roboto", sans-serif;
+	font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 	font-size: 18px;
 	color: var(--colorDarkMode);
 	background-color: var(--backgroundDarkMode);

@@ -1,10 +1,7 @@
 # Algorithm Tutorial with James
-
-Working on migrating this to be usable on the front end.  I will be using React and trying to make it more interactive.  I will also be adding more algorithms and data structures.
+I will be using this repo to document my learning process of JavaScript and Python and hopefully it will be of use to others. I am currently migrating it to be used in the browser using React and trying to make it more interactive. I will also be adding more algorithms and data structures soon. Currently, there is only JavaScript content, however, I will also be adding a section for Python as well.
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
-<br>
-This is an example tutorial to assist with learning algorithms and solving other Javascript scenario problemss.
 <br>
 <br>
 

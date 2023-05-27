@@ -1,38 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Foldit:wght@700&family=Kaushan+Script&display=swap');
 /* Start Header */
 header {
-	background-color: var(--windowColor);
-	position: relative;
-	display: flex;
-	width: 100%;
-	box-shadow: var(--shadow);
+    background-color: var(--windowColor);
+    position: relative;
+    display: flex;
+    width: 100%;
+    box-shadow: var(--shadow);
 }
 .header-title {
-	display: flex;
-	align-items: center;
-	padding: 10px
+    display: flex;
+    align-items: center;
+    padding: 10px;
 }
 .header-image {
-	width: 75px !important;
+    width: 75px !important;
 }
 .title {
-	background: linear-gradient(to right, #ff0000, #ff0000, #ffa500, #ffff00, #00ff00, #0000ff, #0000ff);
-	font-size: 1.5rem;
-	font-weight: 600;
-	-webkit-background-clip: text;
-	color: transparent;
-	margin-left: 10px;
+	font-family: Kaushan Script, cursive;
+	color: var(--hover);
+	text-shadow: 2px 2px 4px var(--colorLightMode);
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin-left: 10px;
+}
+@media screen and (min-width: 500px) {
+    .title {
+        font-size: 2rem;
+    }
 }
 @media screen and (min-width: 768px) {
-	.header {
-		justify-content: space-between;
-	}
-	.title {
-		font-size: 2rem;
-	}	
+    .header {
+        justify-content: space-between;
+    }
+    .title {
+        font-size: 2.15rem;
+    }
 }
 @media screen and (min-width: 1024px) {
-	.title {
-		font-size: 3rem;
-	}
+    .title {
+        font-size: 3rem;
+    }
+}
+@media screen and (min-width: 1200px) {
+    .title {
+        font-size: 4rem;
+    }
 }
 /* End Header */
