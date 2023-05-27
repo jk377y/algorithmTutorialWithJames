@@ -5,6 +5,11 @@ I will be using this repo to document my learning process of JavaScript and Pyth
 <br>
 <br>
 
+### ***NOTE:***
+I am ***NOT*** building this to be mobile friendly. This is designed for 1080p desktop/laptop display for simplicity (I don't want to spend alot of time on CSS for this particular project). My objective is to display the code functionality and thought process of JavaScript and Python. Perhaps at a later date I may make it mobile friendly, but for now, it is not a priority.
+<br>
+<br>
+
 ## How to use this tutorial
 WIll eventually be hosted on my website.  For now, you can clone this repo and run it locally.
 In the console, type `npm run dev` to run the tutorial in dev mode.
