@@ -1,6 +1,6 @@
 # Algorithm Tutorial with James
 
-I will be updating this alot this week (currently 4/18/23).  Hoping to be complete by the weekend.
+Working on migrating this to be usable on the front end.  I will be using React and trying to make it more interactive.  I will also be adding more algorithms and data structures.
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 <br>
