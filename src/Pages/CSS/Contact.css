@@ -1,0 +1,24 @@
+/* Start Contact */
+.contact-outer-wrapper {
+    display: flex;
+    flex-direction: column;
+    padding-top: 200px;
+    align-items: center;
+}
+.contact-jk377y {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: none;
+    font-size: 48px;
+    font-weight: 500;
+    color: var(--hover);
+    text-shadow: 2px 2px 4px var(--colorLightMode);
+    text-decoration: none;
+    margin: 20px 0;
+}
+.contact-jk377y:hover {
+    font-style: italic;
+}
+.contact-icons a {
+    margin: 0 20px;
+}
+/* End Contact */
