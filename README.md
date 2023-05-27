@@ -4,15 +4,13 @@ Working on migrating this to be usable on the front end.  I will be using React 
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 <br>
-This is an example tutorial to assist with learning algorithms.
+This is an example tutorial to assist with learning algorithms and solving other Javascript scenario problemss.
 <br>
 <br>
 
 ## How to use this tutorial
-You must have Node.js installed on your computer. You can download it [here](https://nodejs.org/en/download/).<br>
-I recommend using VS Code as your IDE. You can download it [here](https://code.visualstudio.com/download).<br>
-Also, I recommend the Better Comments extension for VS Code for visual assistance. You can download it [here](https://marketplace.visualstudio.com/items?itemName=aaron-bond.better-comments).<br>
-In the console, type `node script.js` to run the tutorial.
+WIll eventually be hosted on my website.  For now, you can clone this repo and run it locally.
+In the console, type `npm run dev` to run the tutorial in dev mode.
 <br>
 <br>
 
