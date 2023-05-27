@@ -1,0 +1,20 @@
+/* Start NotFound */
+.notfound-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    width: 100vw;
+}
+.notfound-wrapper img {
+    width: 150px;
+    height: 150px;
+}
+.notfound-wrapper h3 {
+    color: var(--color1);
+    width: 200px;
+    text-align: center;
+}
+
+/* End NotFound */

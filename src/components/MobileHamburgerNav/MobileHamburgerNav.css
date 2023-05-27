@@ -1,0 +1,142 @@
+/* Start MobileHamburgerNav */
+.nav-mobile-outer-div {
+	width: 100%;
+	position: fixed;
+	top: 0px;
+	right: 0px;
+	z-index: 100;
+}
+
+.hamburgerBtn {
+	position: absolute;
+	top: 20px;
+	right: 20px;
+	background-color: transparent;
+	border: none;
+	cursor: pointer;
+	z-index: 101;
+}
+
+.hamburgerBtn:focus,
+.hamburgerBtn:hover {
+	outline: none;
+}
+
+.hamburger {
+	display: inline-block;
+	width: 35px;
+	height: 5px;
+	background-color: #ffffff;
+	position: relative;
+	transition: all 0.3s ease;
+	border-radius: 2px;
+}
+
+.hamburger:before,
+.hamburger:after {
+	content: "";
+	display: inline-block;
+	width: 100%;
+	height: 100%;
+	background-color: #ffffff;
+	position: absolute;
+	left: 0;
+	transition: all 0.3s ease;
+	border-radius: 2px;
+}
+
+.hamburger:before {
+	top: -10px;
+}
+
+.hamburger:after {
+	bottom: -10px;
+}
+
+.hamburgerBtn.collapsed .hamburger {
+	transform: rotate(0deg);
+	background-color: rgba(255, 0, 0, 0);
+}
+
+.hamburgerBtn.collapsed .hamburger:before {
+	top: 0;
+	transform: rotate(45deg);
+	rotate: 180deg;
+	background-color: red;
+}
+
+.hamburgerBtn.collapsed .hamburger:after {
+	bottom: 0;
+	transform: rotate(-45deg);
+	rotate: -180deg;
+	background-color: red;
+}
+
+.nav-mobile-menu-div {
+	display: flex;
+	justify-content: center;
+	position: absolute;
+	width: 100vw;
+	height: 100vh;
+	top: 0;
+	right: -100vw;
+	border-radius: 5px;
+	background-color: #29303fee;
+	transition: right 0.3s ease;
+}
+
+.nav-mobile-menu {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin: 50px 0 0 0;
+}
+
+.nav-mobile-menu div {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	margin-bottom: 20px;
+}
+
+.nav-mobile-menu img {
+	width: 100%;
+}
+
+.nav-mobile-menu a {
+	margin: 20px 0;
+	width: 200px;
+	height: 50px;
+	color: var(--colorDarkMode);
+	text-align: center;
+	font-size: 2rem;
+	font-weight: 400;
+	text-decoration: none;
+	font-style: italic;
+	padding: 8px 8px;
+	border-radius: 15px;
+	box-shadow: var(--shadow);
+	transition: color 0.25s ease, box-shadow 0.25s ease;
+}
+
+.nav-mobile-menu a:hover {
+	color: var(--hover);
+	box-shadow: 0px 0px 5px 2px var(--hover);
+}
+
+.show {
+	right: 0;
+}
+  
+.hide {
+	right: -100vw;
+}
+
+@media screen and (min-width: 768px) {
+	.hamburgerBtn,
+	.nav-mobile-menu-div,
+	.nav-mobile-menu {
+		display: none;
+	}
+}
+/* End MobileHamburgerNav */
