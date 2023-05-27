@@ -1,3 +1,5 @@
+import './CSS/Home.css'
+
 const Home = () => {
 	return (
 		<>

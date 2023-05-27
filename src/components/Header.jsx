@@ -1,7 +1,7 @@
-import IMAGES from "../../assets/";
+import IMAGES from "../assets";
 import { Link } from "react-router-dom";
-import "./Header.css";
-import Navbar from "../Navbar/Navbar";
+import "./CSS/Header.css";
+import COMPONENTS from "../components";
 
 const Header = () => {
 	return (
@@ -10,7 +10,7 @@ const Header = () => {
 				<Link to="/"><img className="header-image" src={IMAGES.Logo} alt="jk377y logo"></img></Link>
 				<h2 className="title">Tutorials with James</h2>
 			</div>
-			<Navbar />
+			<COMPONENTS.Navbar />
 		</header>
 	);
 };

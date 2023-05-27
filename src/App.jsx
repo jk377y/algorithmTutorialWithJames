@@ -1,25 +1,26 @@
 import { Routes, Route } from "react-router-dom";
 import "./index.css";
-import Header from "./components/Header/Header.jsx";
-import MobileHamburgerNav from "./components/MobileHamburgerNav/MobileHamburgerNav.jsx";
-import Home from "./Pages/Home/Home.jsx";
-import NotFound from "./Pages/NotFound/NotFound.jsx";
+import COMPONENTS from "./components";
+import PAGES from './Pages';
 
 function App() {
 	return (
 		<>
-			<MobileHamburgerNav />
-			<Header />
+			<COMPONENTS.MobileHamburgerNav />
+			<COMPONENTS.Header />
 			<Routes>
-				<Route path="/" element={<Home />} />
-				<Route path="/home" element={<Home />} />
-				<Route path="/homepage" element={<Home />} />
-				<Route path="/index" element={<Home />} />
-				{/* <Route path="/lessons" element={<Lessons />} /> */}
-				{/* <Route path="/lessons/algorithms" element={<Algorithms />} /> */}
-				{/* <Route path="/lessons/thinkers" element={<Thinkers />} /> */}
-				{/* <Route path="/contact" element={<Contact />} /> */}
-				<Route path="*" element={<NotFound />} />
+				<Route path="/" element={<PAGES.Home />} />
+				<Route path="/home" element={<PAGES.Home />} />
+				<Route path="/homepage" element={<PAGES.Home />} />
+				<Route path="/index" element={<PAGES.Home />} />
+				<Route path="/javascript" element={<PAGES.Javascript />} />
+				<Route path="/javascript/algorithms" element={<PAGES.JS_Algorithms />} />
+				<Route path="/javascript/thinkers" element={<PAGES.JS_Thinkers />} />
+				<Route path="/python" element={<PAGES.Python />} />
+				<Route path="/python/algorithms" element={<PAGES.PY_Algorithms />} />
+				<Route path="/python/thinkers" element={<PAGES.PY_Thinkers />} />
+				<Route path="/contact" element={<PAGES.Contact />} />
+				<Route path="*" element={<PAGES.NotFound />} />
 			</Routes>
 		</>
 	);

@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import { useState } from "react";
-import IMAGES from "../../assets/";
-import "./MobileHamburgerNav.css";
+import IMAGES from "../assets";
+import "./CSS/MobileHamburgerNav.css";
 
 const MobileHamburgerNav = () => {
 	const [isOpen, setIsOpen] = useState(false);
