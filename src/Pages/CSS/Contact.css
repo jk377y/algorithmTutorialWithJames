@@ -5,20 +5,37 @@
     padding-top: 200px;
     align-items: center;
 }
+.contact-h1 {
+    font-size: 3.5rem;
+}
 .contact-jk377y {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-style: none;
-    font-size: 48px;
+    font-size: 2rem;
     font-weight: 500;
     color: var(--hover);
     text-shadow: 2px 2px 4px var(--colorLightMode);
     text-decoration: none;
-    margin: 20px 0;
+    margin: 40px 0;
 }
-.contact-jk377y:hover {
-    font-style: italic;
+div a span {
+    margin: 0 20px;   
 }
-.contact-icons a {
-    margin: 0 20px;
+.contact-jk377y:hover span {
+    margin: 0 0px;
+}
+.contact-icons {
+    display: flex;
+    flex-direction: row;
+}
+.contact-icons img {
+    margin: 0px 20px;
+    border-radius: 20px;
+    transition: all 0.2s ease-in-out;
+}
+
+.contact-icons img:hover {
+    transform: scale(1.1);
+    box-shadow: var(--shadow);
 }
 /* End Contact */
